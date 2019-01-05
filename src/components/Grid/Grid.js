@@ -1,9 +1,10 @@
 import React from 'react';
 
 const Grid = props => {
+  console.log('Grid', props)
   return(
     <div></div>
   )
 };
 
-export default Grid;
+export { Grid };
