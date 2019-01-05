@@ -11,7 +11,6 @@ const App = () => (
         <Route path='/' exact component={Dashboard} />
         <Route path='/grid/' component={Dashboard} />
         <Route path='/flexbox/' component={Dashboard} />
-        <Route path='/boxmodel/' component={Dashboard} />
       </Fragment>
     </Router>
   </Container>
